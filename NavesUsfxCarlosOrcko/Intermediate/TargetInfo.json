@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NavesLAB01USFX",
+			"Path": "C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesLAB01USFX-master\\NavesLAB01USFX-master\\Source\\NavesLAB01USFX.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NavesLAB01USFXEditor",
+			"Path": "C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesLAB01USFX-master\\NavesLAB01USFX-master\\Source\\NavesLAB01USFXEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
