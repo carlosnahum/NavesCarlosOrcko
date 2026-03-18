@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NavesLAB01USFX.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FE1C9DEC-BBDA-4BAF-8776-40493E0CEB85}</UniqueIdentifier>
+      <UniqueIdentifier>{233EDE21-E9F8-47D1-8EFB-1C3BAE677486}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NavesLAB01USFX.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{342C7A25-C81D-4EC9-93DC-32F7C797DEDF}</UniqueIdentifier>
+      <UniqueIdentifier>{1CDB5807-E480-4A51-B0E4-D1DDCED7CA50}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,44 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NavesLAB01USFX">
-      <UniqueIdentifier>{A972A40D-CBCD-40EC-B069-3434E57E3CF0}</UniqueIdentifier>
+      <UniqueIdentifier>{23C356A6-424A-449C-A314-FACDB566736D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAAvion.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAAvion.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EABarco.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EABarco.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EADron.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EADron.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAHelicoptero.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAHelicoptero.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EALancha.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EALancha.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\EAMotoAcuatica.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\EAMotoAcuatica.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NavesLAB01USFX\Enemigo.cpp">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
@@ -56,6 +92,30 @@
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NavesLAB01USFX\EnemigoTerrestre.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETBlindado.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETBlindado.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETCamion.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETCamion.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETSoldado.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETSoldado.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\ETTanque.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ETTanque.h">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClInclude>
     <None Include="..\..\Source\NavesLAB01USFX\NavesLAB01USFX.Build.cs">
@@ -83,6 +143,12 @@
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NavesLAB01USFX\NavesLAB01USFXProjectile.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\SpawnerCuadrillas.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\SpawnerCuadrillas.h">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClInclude>
   </ItemGroup>

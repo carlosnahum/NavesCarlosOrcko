@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesLAB01USFX-master\\NavesLAB01USFX-master\\Source\\NavesLAB01USFX\\NavesLAB01USFX.Build.cs",
-		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesLAB01USFX-master\\NavesLAB01USFX-master\\Source\\NavesLAB01USFX.Target.cs",
-		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesLAB01USFX-master\\NavesLAB01USFX-master\\Source\\NavesLAB01USFXEditor.Target.cs"
+		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesUsfxCarlosOrcko\\NavesCarlosOrcko\\NavesUsfxCarlosOrcko\\Source\\NavesLAB01USFX\\NavesLAB01USFX.Build.cs",
+		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesUsfxCarlosOrcko\\NavesCarlosOrcko\\NavesUsfxCarlosOrcko\\Source\\NavesLAB01USFX.Target.cs",
+		"C:\\Users\\NAHUM\\Documents\\Unreal Projects\\NavesUsfxCarlosOrcko\\NavesCarlosOrcko\\NavesUsfxCarlosOrcko\\Source\\NavesLAB01USFXEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
