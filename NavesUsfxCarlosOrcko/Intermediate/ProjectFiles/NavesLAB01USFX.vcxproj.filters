@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NavesLAB01USFX.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{233EDE21-E9F8-47D1-8EFB-1C3BAE677486}</UniqueIdentifier>
+      <UniqueIdentifier>{5EFDF610-59DB-446D-A692-F1DE04A80F44}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NavesLAB01USFX.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{1CDB5807-E480-4A51-B0E4-D1DDCED7CA50}</UniqueIdentifier>
+      <UniqueIdentifier>{24588631-7BD8-442C-AADE-2F023034CFA7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NavesLAB01USFX">
-      <UniqueIdentifier>{23C356A6-424A-449C-A314-FACDB566736D}</UniqueIdentifier>
+      <UniqueIdentifier>{1E5367B2-6C5E-4D70-8432-D15BF89C87D4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\BloqueEscenario.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\BloqueEscenario.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NavesLAB01USFX\EAAvion.cpp">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClCompile>
@@ -118,6 +124,15 @@
     <ClInclude Include="..\..\Source\NavesLAB01USFX\ETTanque.h">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\NavesLAB01USFX\GeneradorEscenario.cpp">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\GeneradorEscenario.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavesLAB01USFX\ListaGenerica.h">
+      <Filter>Source\NavesLAB01USFX</Filter>
+    </ClInclude>
     <None Include="..\..\Source\NavesLAB01USFX\NavesLAB01USFX.Build.cs">
       <Filter>Source\NavesLAB01USFX</Filter>
     </None>
@@ -151,5 +166,11 @@
     <ClInclude Include="..\..\Source\NavesLAB01USFX\SpawnerCuadrillas.h">
       <Filter>Source\NavesLAB01USFX</Filter>
     </ClInclude>
+    <Filter Include="Source\NavesLAB01USFX\.vs">
+      <UniqueIdentifier>{7A8CCC15-86E3-48E1-84FF-8B2561F52498}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NavesLAB01USFX\.vs\slnx.sqlite">
+      <Filter>Source\NavesLAB01USFX\.vs</Filter>
+    </None>
   </ItemGroup>
 </Project>
