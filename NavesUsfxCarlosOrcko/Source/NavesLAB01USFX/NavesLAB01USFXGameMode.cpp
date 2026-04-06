@@ -15,13 +15,10 @@ void ANavesLAB01USFXGameMode::BeginPlay()
 	UWorld* World = GetWorld();
 	if (!World) return;
     // --- COORDENADAS BASE ---
-    FVector UbicacionBase = FVector(-990.0f, -90.0f, 214.0f); // Ajusta según tu nivel
+    FVector UbicacionBase = FVector(-990.0f, -90.0f, 214.0f); 
 
 
-    // ==========================================
-    // DISEÑO GRUPO 1 (Forma de O de la imagen)
-    // ==========================================
-    // 3. Negro (Estatico) - Derecha
+    
     AMuro* ME1 = GetWorld()->SpawnActor<AMuroEstatico>(AMuroEstatico::StaticClass(), UbicacionBase + FVector(0, 100, 0), FRotator(0, 0, 0));
     Grupo1.AgregarMuro(ME1);
     AMuro* ME2 = GetWorld()->SpawnActor<AMuroEstatico>(AMuroEstatico::StaticClass(), UbicacionBase + FVector(100, -100, 0), FRotator(0, 90, 0));
@@ -49,22 +46,22 @@ void ANavesLAB01USFXGameMode::BeginPlay()
     AMuro* ME13 = GetWorld()->SpawnActor<AMuroEstatico>(AMuroEstatico::StaticClass(), UbicacionBase + FVector(1300, 600, 0), FRotator(0, 90, 0));
     Grupo1.AgregarMuro(ME1);
 
-    // 1. Azul (Fantasma) - Superior
+    
     AMuroFantasma* MF1 = GetWorld()->SpawnActor<AMuroFantasma>(AMuroFantasma::StaticClass(), UbicacionBase + FVector(400, 100, 0), FRotator::ZeroRotator);
     if (MF1)
     {
-        // 2. CONFIGURAR EL TIEMPO DESDE EL GAME MODE (ejemplo: cada 0.5 segundos)
+        
         MF1->IniciarCicloFantasma(1.0f);
 
-        // 3. Agregar al grupo del Template
+       
         Grupo1.AgregarMuro(MF1);
     }
-    /*AMuroFantasma* MF2 = GetWorld()->SpawnActor<AMuroFantasma>(AMuroFantasma::StaticClass(), UbicacionBase + FVector(500, 100, 0), FRotator::ZeroRotator);
+    AMuroFantasma* MF2 = GetWorld()->SpawnActor<AMuroFantasma>(AMuroFantasma::StaticClass(), UbicacionBase + FVector(500, 100, 0), FRotator::ZeroRotator);
     if (MF2)
     {
-        MF2->IniciarCicloFantasma(4.f);
+        MF2->IniciarCicloFantasma(4.0f);
         Grupo1.AgregarMuro(MF2);
-    }*/
+    }
     AMuroFantasma* MF3 = GetWorld()->SpawnActor<AMuroFantasma>(AMuroFantasma::StaticClass(), UbicacionBase + FVector(600, 100, 0), FRotator::ZeroRotator);
     if (MF3)
     {
@@ -89,15 +86,14 @@ void ANavesLAB01USFXGameMode::BeginPlay()
         MF6->IniciarCicloFantasma(1.5f);
         Grupo1.AgregarMuro(MF6);
     }
-    // 2. Rojo (Trampa) - Izquierda
+   
     AMuroTrampa* MT1 = GetWorld()->SpawnActor<AMuroTrampa>(AMuroTrampa::StaticClass(), UbicacionBase + FVector(800, 100, 0), FRotator::ZeroRotator);
     if (MT1)
     {
-        // AQUÍ DEFINES EL EJE DIRECTAMENTE
-        // Puedes elegir: EEjeMovimiento::Movimiento_X o EEjeMovimiento::Movimiento_Y
+        
         MT1->ConfigurarMovimiento(EEjeMovimiento::Movimiento_Y, 250.0f, 2.0f);
 
-        // Lo agregamos al grupo del Template
+        
         Grupo1.AgregarMuro(MT1);
     }
     AMuroTrampa* MT2 = (GetWorld()->SpawnActor<AMuroTrampa>(AMuroTrampa::StaticClass(), UbicacionBase + FVector(900, -200, 0), FRotator::ZeroRotator));

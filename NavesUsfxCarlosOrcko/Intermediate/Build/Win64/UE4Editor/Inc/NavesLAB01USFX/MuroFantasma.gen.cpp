@@ -52,9 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroFantasma() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMuroFantasma_Statics::NewProp_IntervaloFlash_MetaData[] = {
 		{ "Category", "Configuracion" },
-		{ "Comment", "// Variable configurable desde el GameMode\n" },
 		{ "ModuleRelativePath", "MuroFantasma.h" },
-		{ "ToolTip", "Variable configurable desde el GameMode" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMuroFantasma_Statics::NewProp_IntervaloFlash = { "IntervaloFlash", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMuroFantasma, IntervaloFlash), METADATA_PARAMS(Z_Construct_UClass_AMuroFantasma_Statics::NewProp_IntervaloFlash_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMuroFantasma_Statics::NewProp_IntervaloFlash_MetaData)) };
@@ -88,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroFantasma() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMuroFantasma, 351993308);
+	IMPLEMENT_CLASS(AMuroFantasma, 2277059316);
 	template<> NAVESLAB01USFX_API UClass* StaticClass<AMuroFantasma>()
 	{
 		return AMuroFantasma::StaticClass();

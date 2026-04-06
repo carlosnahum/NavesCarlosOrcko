@@ -14,7 +14,7 @@ AMuroFantasma::AMuroFantasma()
 			MallaMuro->SetStaticMesh(CuboMesh.Object);
 		}
 
-		// Escala solicitada: 3f en X (Largo), 1f en Y (Ancho), 1f en Z (Grosor)
+		
 		MallaMuro->SetRelativeScale3D(FVector(1.0f, 3.0f, 1.0f));
 	}
 }
@@ -29,19 +29,18 @@ void AMuroFantasma::IniciarCicloFantasma(float NuevoIntervalo)
 {
 	IntervaloFlash = NuevoIntervalo;
 
-	// Iniciamos el timer con el valor recibido
+	
 	GetWorldTimerManager().SetTimer(TimerHandle_Visibilidad, this, &AMuroFantasma::AlternarEstado, IntervaloFlash, true);
 }
 void AMuroFantasma::AlternarEstado()
 {
 	bEstaVisible = !bEstaVisible;
 
-	// Encapsulación de lógica de visibilidad y colisión
 	if (MallaMuro)
 	{
 		MallaMuro->SetHiddenInGame(!bEstaVisible);
 
-		// Si no está visible, desactivamos colisiones para que no bloquee a la nave
+		
 		if (bEstaVisible) {
 			MallaMuro->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 		}

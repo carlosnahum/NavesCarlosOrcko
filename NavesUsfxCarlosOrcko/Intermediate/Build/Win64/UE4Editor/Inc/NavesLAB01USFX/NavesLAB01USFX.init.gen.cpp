@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeNavesLAB01USFX_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAE75744E,
+				0x57B9876D,
 				0x05D22594,
 				METADATA_PARAMS(nullptr, 0)
 			};

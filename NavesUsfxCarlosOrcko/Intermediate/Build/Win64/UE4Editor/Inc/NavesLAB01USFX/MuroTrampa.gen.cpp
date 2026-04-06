@@ -33,7 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 		return EEjeMovimiento_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EEjeMovimiento(EEjeMovimiento_StaticEnum, TEXT("/Script/NavesLAB01USFX"), TEXT("EEjeMovimiento"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_NavesLAB01USFX_EEjeMovimiento_Hash() { return 1203110143U; }
+	uint32 Get_Z_Construct_UEnum_NavesLAB01USFX_EEjeMovimiento_Hash() { return 2955941469U; }
 	UEnum* Z_Construct_UEnum_NavesLAB01USFX_EEjeMovimiento()
 	{
 #if WITH_HOT_RELOAD
@@ -51,13 +51,11 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
-				{ "Comment", "// Enumeraci?n para elegir el eje de movimiento desde el editor\n" },
 				{ "ModuleRelativePath", "MuroTrampa.h" },
 				{ "Movimiento_X.DisplayName", "Eje X (Horizontal)" },
 				{ "Movimiento_X.Name", "EEjeMovimiento::Movimiento_X" },
 				{ "Movimiento_Y.DisplayName", "Eje Y (Lateral/Vertical)" },
 				{ "Movimiento_Y.Name", "EEjeMovimiento::Movimiento_Y" },
-				{ "ToolTip", "Enumeraci?n para elegir el eje de movimiento desde el editor" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
@@ -121,9 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMuroTrampa_Statics::NewProp_DistanciaMovimiento_MetaData[] = {
 		{ "Category", "Configuracion Trap" },
 		{ "ClampMin", "0.0" },
-		{ "Comment", "// Encapsulaci?n de variables de configuraci?n del movimiento\n// 'DistanciaMovimiento' es la amplitud de la oscilaci?n (ej. 200cm a cada lado)\n" },
 		{ "ModuleRelativePath", "MuroTrampa.h" },
-		{ "ToolTip", "Encapsulaci?n de variables de configuraci?n del movimiento\n'DistanciaMovimiento' es la amplitud de la oscilaci?n (ej. 200cm a cada lado)" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMuroTrampa_Statics::NewProp_DistanciaMovimiento = { "DistanciaMovimiento", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMuroTrampa, DistanciaMovimiento), METADATA_PARAMS(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_DistanciaMovimiento_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_DistanciaMovimiento_MetaData)) };
@@ -131,9 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMuroTrampa_Statics::NewProp_VelocidadMovimiento_MetaData[] = {
 		{ "Category", "Configuracion Trap" },
 		{ "ClampMin", "0.1" },
-		{ "Comment", "// 'VelocidadMovimiento' es la frecuencia del movimiento (ciclos por segundo)\n" },
 		{ "ModuleRelativePath", "MuroTrampa.h" },
-		{ "ToolTip", "'VelocidadMovimiento' es la frecuencia del movimiento (ciclos por segundo)" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMuroTrampa_Statics::NewProp_VelocidadMovimiento = { "VelocidadMovimiento", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMuroTrampa, VelocidadMovimiento), METADATA_PARAMS(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_VelocidadMovimiento_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_VelocidadMovimiento_MetaData)) };
@@ -141,9 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMuroTrampa_Statics::NewProp_TipoDeMovimiento_MetaData[] = {
 		{ "Category", "Configuracion Trap" },
-		{ "Comment", "// Selector del eje de movimiento seg?n el dise?o del nivel\n" },
 		{ "ModuleRelativePath", "MuroTrampa.h" },
-		{ "ToolTip", "Selector del eje de movimiento seg?n el dise?o del nivel" },
 	};
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AMuroTrampa_Statics::NewProp_TipoDeMovimiento = { "TipoDeMovimiento", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMuroTrampa, TipoDeMovimiento), Z_Construct_UEnum_NavesLAB01USFX_EEjeMovimiento, METADATA_PARAMS(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_TipoDeMovimiento_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMuroTrampa_Statics::NewProp_TipoDeMovimiento_MetaData)) };
@@ -180,7 +172,7 @@ void EmptyLinkFunctionForGeneratedCodeMuroTrampa() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMuroTrampa, 669187627);
+	IMPLEMENT_CLASS(AMuroTrampa, 3003951450);
 	template<> NAVESLAB01USFX_API UClass* StaticClass<AMuroTrampa>()
 	{
 		return AMuroTrampa::StaticClass();
