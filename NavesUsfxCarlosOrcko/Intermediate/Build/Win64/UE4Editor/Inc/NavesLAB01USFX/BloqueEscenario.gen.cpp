@@ -53,10 +53,8 @@ void EmptyLinkFunctionForGeneratedCodeBloqueEscenario() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABloqueEscenario_Statics::NewProp_MallaBloque_MetaData[] = {
 		{ "Category", "Escenario" },
-		{ "Comment", "// Componente visual del bloque\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "BloqueEscenario.h" },
-		{ "ToolTip", "Componente visual del bloque" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABloqueEscenario_Statics::NewProp_MallaBloque = { "MallaBloque", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABloqueEscenario, MallaBloque), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABloqueEscenario_Statics::NewProp_MallaBloque_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABloqueEscenario_Statics::NewProp_MallaBloque_MetaData)) };
@@ -90,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeBloqueEscenario() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABloqueEscenario, 1600627911);
+	IMPLEMENT_CLASS(ABloqueEscenario, 4114062270);
 	template<> NAVESLAB01USFX_API UClass* StaticClass<ABloqueEscenario>()
 	{
 		return ABloqueEscenario::StaticClass();

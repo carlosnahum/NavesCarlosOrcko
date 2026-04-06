@@ -25,7 +25,6 @@ class ANavesLAB01USFXPawn : public APawn
 
 public:
 	ANavesLAB01USFXPawn();
-
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite )
 	FVector GunOffset;
@@ -74,5 +73,7 @@ public:
 	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	// Usamos AMuro como base para permitir polimorfismo en los grupos
+	
 };
 
